@@ -1,0 +1,53 @@
+.upper-bar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .img-bar{
+        height: 65px;
+    }
+    
+    .icons{
+                margin-top: 10px;
+                text-align: center;
+
+        
+        a{
+           text-align: center;
+
+        margin-left: 45px;
+        color: #777777;
+       padding: 5px; 
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            
+            &:hover{
+                border: 1px solid #f5bc04;
+                border-radius: 50%;
+                
+            } 
+            
+            i{
+                width: 40px;
+            height: 40px;
+                
+            }
+                    
+        }
+    }
+    
+    .dropdown{
+        color: #777777;
+        button{
+            background-color: #FFF;
+            color: #777777;
+            margin-top: 13px;
+            &:hover,&:active,&:visited{
+                color:  #777777;
+                background-color: #FFF;
+                border-color:  #777777;
+            }
+        }
+    }
+    
+}
